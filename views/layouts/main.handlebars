@@ -37,7 +37,7 @@
         })
     });
 
-    $("#devourButton").on("click", function () {
+    $(".devourButton").on("click", function () {
         $.ajax({
             method: "PUT",
             url: "/devourburger/" + $(this).data("id")
